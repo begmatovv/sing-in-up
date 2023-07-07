@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 600;
+  color: #000;
+  background-color: #f4f8fa;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Segoe UI", sans-serif;
+  color: #000;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px 5px;
+  font-family: inherit;
+  width: 416px;
+  height: 48px;
+
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  background: #ffffff;
+  border: 1px solid #00000017;
+  margin-bottom: 20px;
+}
+p {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+  padding-left: 33px;
+  padding-right: 33px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HEADER */
+
+.sitenav {
+  display: flex;
+  justify-content: space-between;
+}
+.site-list {
+  display: flex;
+  gap: 40px;
+}
+.site-list-item {
+  padding-top: 10px;
+}
+.button {
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  height: 24px;
+  border-radius: 4px;
+}
+.btn {
+  width: 58px;
+}
+.btn2 {
+  width: 132px;
+}
+.btn3 {
+  width: 55px;
+}
+.form {
+  width: 496px;
+  height: 641px;
+  top: 80px;
+  left: 449px;
+  border-radius: 10px;
+
+  margin-bottom: 50px;
+  border: 1px solid #00000017;
+}
+.login-link {
+  margin-left: 10px;
+  text-decoration: underline;
+  color: #01bab3;
+}
+.main-logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+.main-top-info h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.main-top-p {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.main-button {
+  width: 416px;
+  height: 52.5px;
+  top: 606px;
+  left: 489px;
+  border-radius: 4px;
+  color: #fff;
+  background: #01bab3;
+  border: 1px solid #01bab3;
+}
+.email {
+  margin-bottom: 30px;
+}
+.password {
+  margin-bottom: 30px;
+}
+h3 {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
